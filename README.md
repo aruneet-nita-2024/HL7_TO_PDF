@@ -40,7 +40,7 @@ The controller exposes the following API endpoint:
 
 - **POST** `/generate-pdf` - Converts an HL7 message to a PDF document. Expects the HL7 message as a request body.
 
-Request Body:
+ Request Body:
 `MSH|^~\&|SendingApp|SendingFacility|ReceivingApp|ReceivingFacility|20230620120000||ORU^R01|MSG001|P|2.5.1
 PID|1|54321|12345^^^HospitalID||Doe^John||19800101|M|||123 Main St^^New York^NY^10001||(555)555-5555||S||123456789|98765432
 OBR|1|1234567^^^HospitalID|9876543^^^LabID|CBC^Complete Blood Count|R||20230620110000||||PhysicianID^Doe^John^^Dr.^^^|||20230620120000
